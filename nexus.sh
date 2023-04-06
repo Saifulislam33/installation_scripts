@@ -14,6 +14,10 @@ chown -R nexus:nexus /opt/nexus
 
 nano /opt/nexus/bin/nexus.vmoptions
 
+nano /opt/nexus/bin/nexus.rc (open the file and uncomment it and add user "nexes")
+
+sudo -u nexus /opt/nexus/bin/nexus start
+
 
 
 ```
